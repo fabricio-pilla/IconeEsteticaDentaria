@@ -1,0 +1,78 @@
+﻿body {
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/*################# GERAL #################*/
+.cursor-pointer {
+    cursor: pointer !important;
+}
+
+.loading {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    text-indent: 100%;
+    font-size: 0;
+    background: url(/Images/ajax-loader.gif) center no-repeat;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.display-none {
+    display: none;
+}
+
+.display-block {
+    display: block;
+}
+
+.display-inline {
+    display: inline !important;
+}
+
+.text-navy {
+    color: #1ab394;
+}
+
+/*################# MENU #################*/
+.logoMenu {
+    float: left;    
+}
+
+    .navbar-default .navbar-nav > li > a:hover {
+        font-weight: bold;
+    }
+
+.navbar-toggle {
+    position: initial !important;
+    float: right !important;
+    margin-top: 20px !important;
+}
+
+/*################# LOGIN #################*/
+.logoLogin {
+    width: 300px;
+    right: 200px;
+}
+
+/*################# MARGINS #################*/
+.margin-top-5 {
+    margin-top: 5px;
+}
